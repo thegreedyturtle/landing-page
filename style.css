@@ -1,12 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
 }
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+h1 {
+    margin: 0px;
+    padding: 8px;
+}
+
+ul {
+    list-style-type: none;
+    color: purple;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-right: 16px;
+}
+
+.header {
+    color: aliceblue;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shit {
+    background-color: #1F2937;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.shitsignup {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup {
+    background-color: #3882F6;
+}
+
+.ceramicshit {
+    width: 200px;
+    margin: 16px;
 }
